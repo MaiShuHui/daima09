@@ -6,7 +6,7 @@ from selenium import webdriver
 class Test():
 
     def setup(self):
-        driver = webdriver.Chrome()
+        driver = webdriver.Firefox()
         driver.get("http://localhost/index.php")
         self.driver = driver
 
